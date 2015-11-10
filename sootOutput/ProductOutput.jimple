@@ -1,0 +1,15 @@
+public class ProductOutput
+{
+
+    void stuffxP(int)
+    {
+        ProductOutput r0;
+        int i0;
+        java.io.PrintStream r1;
+
+        r0 := @this: ProductOutput;
+        i0 := @parameter0: int;
+        r1 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke r1.<java.io.PrintStream: void println(java.lang.String)>("Hello world!");
+    }
+}
